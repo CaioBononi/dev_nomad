@@ -1,0 +1,26 @@
+{
+  "name": "dev_nomad",
+  "version": "0.0.1",
+  "description": "Backend Javascript SOLID Clean Architecture Engine Infrastruture",
+  "keywords": [
+    "turma12"
+  ],
+  "homepage": "https://github.com/CaioBononi/dev_nomad#readme",
+  "bugs": {
+    "url": "https://github.com/CaioBononi/dev_nomad/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CaioBononi/dev_nomad.git"
+  },
+  "license": "MIT",
+  "author": "Caio Bononi Pereira",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "firebase": "^12.18.0"
+  }
+}
