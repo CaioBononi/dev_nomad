@@ -8,6 +8,7 @@ class User:
     user_id: int 
     email: str
     hashed_password: Optional[str] = field(default=None, repr=False)
+    firebase_uid: Optional[str] = field(default=None)
     full_name: str = field(default="")
     role: str = field(default="user")
     created_at: datetime = field(default_factory=datetime.utcnow)
